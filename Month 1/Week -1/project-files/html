@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Hi, I'm Precious Korir 👩🏽‍💻</h1>
+    <p>Aspiring Web Developer | IT Student | Creative Thinker</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm an IT student passionate about building useful digital products and
+      learning new technologies. I love turning ideas into reality through code
+      and design.
+    </p>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Let's connect!</p>
+    <p>
+      <a href="mailto:your@email.com">Email</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">GitHub</a>
+    </p>
+  </section>
+  <section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <a href="https://github.com/preciouskorir/voting-system" target="_blank" class="card">
+      Voting System Project
+    </a>
+    <img src="images/voting-system.png" alt="Voting System Project" class="project-img">
+    <h3>🗳️ Voting System</h3>
+      <p>An online voting platform built with Java to ensure secure, anonymous, and efficient vote tallying.</p>
+    <a href="https://github.com/preciouskorir/spam-email-classification" target="_blank" class="card">
+      Spam Email Classifier
+    </a>
+     <img src="images/spam-classifier.png" alt="Spam Email Classification" class="project-img">
+    <h3>📧 Spam Email Classifier</h3>
+      <p>A machine learning project that classifies emails as spam or not spam using Python.</p>
+    <a href="https://github.com/preciouskorir/savannah-women-tech-africa" target="_blank" class="card">
+      Savannah Women Tech Africa
+    </a>
+         <img src="images/savannah.png" alt="Savannah Women Tech Africa" class="project-img">
+    <h3>🌍 Savannah Women Tech Africa</h3>
+      <p>A community website created to empower women in tech across Africa through collaboration and resources.</p>
+  </div>
+</section>
+
+</body>
+</html>
